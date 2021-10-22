@@ -1,11 +1,14 @@
 import './App.css';
 import Dictionary from './Dictionary';
+import research from './research.png';
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">Add image here</header>
+        <header className="App-header">
+          <img src={research} alt="Logo" />
+        </header>
         <main>
           <Dictionary />
         </main>

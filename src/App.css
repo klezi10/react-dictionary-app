@@ -1,1 +1,9 @@
+.App img {
+  max-width: 200px;
+  display: block;
+  margin: 50px auto;
+}
 
+.App footer {
+  margin-top: 30px;
+}
