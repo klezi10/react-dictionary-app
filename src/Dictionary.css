@@ -1,5 +1,5 @@
-.Dictionary {
-  font-family: 'Montserrat', sans-serif;
+.dictionary-section {
+  border: 1px solid black;
 }
 
 .Dictionary h1,
@@ -9,15 +9,32 @@ h3 {
   font-weight: bold;
 }
 
+.Dictionary label {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 20px;
+  display: block;
+  line-height: 29px;
+  text-align: center;
+}
+
 .Dictionary form {
   display: flex;
   justify-content: center;
 }
 
-.Dictionary .examples {
-  text-align: center;
+.Dictionary .search-input {
+  display: block;
+  font-size: 18px;
+  padding: 22px;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+}
+
+.Dictionary .hint {
   padding-top: 10px;
   font-size: 15px;
+  text-align: center;
 }
 
 .Synonyms li {
