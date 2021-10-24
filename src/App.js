@@ -15,7 +15,12 @@ export default function App() {
         <footer className="text-center">
           <small>
             This project was coded by Klesta |{' '}
-            <a href="/" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/klezi10/react-dictionary-app"
+              target="_blank"
+              rel="noreferrer"
+              title="GitHub code"
+            >
               Open-source
             </a>{' '}
           </small>
