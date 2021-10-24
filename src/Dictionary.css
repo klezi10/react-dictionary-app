@@ -1,4 +1,21 @@
+.Dictionary {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Dictionary h1,
+h2,
+h3 {
+  font-family: 'Cairo', sans-serif;
+  font-weight: bold;
+}
+
 .Dictionary form {
   display: flex;
   justify-content: center;
+}
+
+.Dictionary .examples {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 15px;
 }
