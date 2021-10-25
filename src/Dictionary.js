@@ -47,7 +47,7 @@ export default function Dictionary(props) {
             />
           </form>
           <p className="hint">
-            suggested: wine, sunset, travel, pilates, hiking
+            suggested: chocolate, sunset, travel, pilates, hiking
           </p>
         </section>
         <Results results={results} />
