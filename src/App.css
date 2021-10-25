@@ -4,6 +4,8 @@ body {
 
 .App {
   font-family: 'Montserrat', sans-serif;
+  max-width: 2050px;
+  margin: 0 auto;
 }
 
 .App h1 {
