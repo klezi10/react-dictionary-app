@@ -1,0 +1,10 @@
+.Meaning .definition {
+  color: #91564b;
+  margin-bottom: 10px;
+}
+
+.Meaning .example {
+  font-style: italic;
+  font-size: 15px;
+  opacity: 0.7;
+}

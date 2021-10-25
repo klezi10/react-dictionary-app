@@ -1,12 +1,18 @@
-.dictionary-section {
-  border: 1px solid black;
-}
-
 .Dictionary h1,
 h2,
 h3 {
   font-family: 'Cairo', sans-serif;
   font-weight: bold;
+}
+
+.Dictionary section {
+  margin: 20px 50px;
+  border: 1px solid #87aaaa;
+  box-shadow: 3px 3px 3px rgb(0 0 0 / 30%);
+  border-radius: 6px;
+  padding: 25px 25px;
+  color: black;
+  background: #c8e3d4;
 }
 
 .Dictionary label {
@@ -26,7 +32,8 @@ h3 {
 .Dictionary .search-input {
   display: block;
   font-size: 18px;
-  padding: 22px;
+  color: gray;
+  padding: 20px;
   border: 1px solid #dddddd;
   border-radius: 6px;
 }
@@ -35,11 +42,5 @@ h3 {
   padding-top: 10px;
   font-size: 15px;
   text-align: center;
-}
-
-.Synonyms li {
-  list-style: none;
-  padding-left: 0;
-  display: inline-block;
-  padding: 0 10px;
+  opacity: 0.8;
 }

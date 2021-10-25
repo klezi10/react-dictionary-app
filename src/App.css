@@ -1,18 +1,41 @@
 body {
-  background: #abd4e4;
+  background: #87aaaa;
 }
 
 .App {
   font-family: 'Montserrat', sans-serif;
 }
 
+.App h1 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
 .App img {
   max-width: 200px;
   display: block;
   margin: 50px auto;
+  border: 1px solid #87aaaa;
   border-radius: 4px;
 }
 
 .App footer {
   margin-top: 30px;
+  margin-bottom: 30px;
+  color: #c8e3d4;
+}
+
+.App footer a {
+  transition: all 150ms ease-in-out;
+  color: #f6eabe;
+}
+
+.App footer a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.App a {
+  text-decoration: none;
 }

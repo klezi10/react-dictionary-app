@@ -35,21 +35,26 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <label>What word do you want to look up?</label>
-        <form onSubmit={handleSubmit}>
-          <input
-            type="search"
-            placeholder="Search for a word"
-            className="form-control search-input"
-            onChange={handleKeywordChange}
-          />
-        </form>
-        <p className="hint">example: wine, coding, pilates</p>
+        <section>
+          <label>What word do you want to look up?</label>
+          <form onSubmit={handleSubmit}>
+            <input
+              type="search"
+              placeholder="Search for a word"
+              className="form-control search-input"
+              onChange={handleKeywordChange}
+              defaultValue={props.defaultWord}
+            />
+          </form>
+          <p className="hint">
+            suggested: wine, sunset, travel, pilates, hiking
+          </p>
+        </section>
         <Results results={results} />
       </div>
     );
   } else {
     load();
-    return 'Loading';
+    return null;
   }
 }
