@@ -10,7 +10,7 @@ export default function App() {
           <img src={research} alt="Logo" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultWord="beach" />
         </main>
         <footer className="text-center">
           <small>
