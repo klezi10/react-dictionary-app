@@ -14,7 +14,7 @@ body {
   margin-bottom: 30px;
 }
 
-.App img {
+.App .logo {
   max-width: 200px;
   display: block;
   margin: 50px auto;
