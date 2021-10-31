@@ -15,7 +15,17 @@ export default function App() {
         </main>
         <footer className="text-center">
           <small>
-            This project was coded by Klesta |{' '}
+            This project was coded by{' '}
+            <a
+              href="https://clever-turing-3f9e94.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+              title="Portfolio"
+            >
+              {' '}
+              Klesta Luli{' '}
+            </a>{' '}
+            |{' '}
             <a
               href="https://github.com/klezi10/react-dictionary-app"
               target="_blank"
